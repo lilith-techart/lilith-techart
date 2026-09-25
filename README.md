@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-header.svg" width="100%" alt="Lilith — Technical Artist" />
+  <img src="assets/lilith_profile_banner_github.gif" width="100%" alt="Lilith — Technical Artist animated banner" />
 </p>
 
 <p align="center">
