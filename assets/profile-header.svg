@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090d14"/>
+      <stop offset="0.55" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="petal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.55" stop-color="#dfe6ff"/>
+      <stop offset="1" stop-color="#919bd0"/>
+    </linearGradient>
+    <linearGradient id="stem" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#cfd7ff"/>
+      <stop offset="1" stop-color="#7f8ac4"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#aeb9ff" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#aeb9ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+  <circle cx="220" cy="155" r="180" fill="url(#glow)"/>
+
+  <!-- orbital accents -->
+  <path d="M78 171 C165 55 340 49 430 134" fill="none" stroke="#9fa9d8" stroke-opacity=".38" stroke-width="1.4"/>
+  <path d="M96 224 C191 285 352 279 424 196" fill="none" stroke="#9fa9d8" stroke-opacity=".26" stroke-width="1.2"/>
+  <circle cx="115" cy="129" r="3.2" fill="#b7c0ef"/>
+  <circle cx="388" cy="103" r="4.2" fill="#8e98cd"/>
+  <circle cx="411" cy="216" r="2.8" fill="#dbe1ff"/>
+  <circle cx="74" cy="205" r="2.5" fill="#8e98cd"/>
+
+  <!-- calligraphic lily / L -->
+  <path d="M144 260 C186 224 213 184 221 135 C226 103 248 78 285 62 C274 104 253 134 230 157 C274 137 315 119 350 104 C336 143 306 171 262 187 C307 179 348 181 378 194 C345 219 301 229 253 221 C225 218 207 229 196 247 C244 237 304 240 360 258"
+        fill="none" stroke="url(#stem)" stroke-width="14" stroke-linecap="round"/>
+
+  <path d="M217 138 C190 110 180 80 190 48 C222 69 239 96 239 126 C239 131 232 136 217 138Z" fill="url(#petal)"/>
+  <path d="M230 145 C239 109 259 83 292 70 C294 107 278 135 248 156 C240 160 234 156 230 145Z" fill="url(#petal)"/>
+  <path d="M235 157 C270 132 309 128 343 140 C319 167 286 178 249 176 C240 174 235 168 235 157Z" fill="url(#petal)"/>
+  <path d="M216 151 C182 145 153 153 130 175 C163 188 193 183 219 164 C225 159 223 155 216 151Z" fill="url(#petal)"/>
+
+  <!-- stamens -->
+  <path d="M229 148 C230 124 234 105 244 88" stroke="#7883bc" stroke-width="4" stroke-linecap="round"/>
+  <path d="M235 151 C245 128 256 111 271 98" stroke="#7883bc" stroke-width="4" stroke-linecap="round"/>
+  <path d="M222 148 C216 126 215 107 221 91" stroke="#7883bc" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="244" cy="86" rx="6" ry="10" fill="#9aa4d8"/>
+  <ellipse cx="273" cy="96" rx="6" ry="10" transform="rotate(35 273 96)" fill="#9aa4d8"/>
+  <ellipse cx="221" cy="89" rx="6" ry="10" transform="rotate(-10 221 89)" fill="#9aa4d8"/>
+
+  <!-- faint technical linework -->
+  <path d="M147 255 C208 208 277 182 361 170" fill="none" stroke="#d8deff" stroke-opacity=".18" stroke-width="1"/>
+  <path d="M160 248 C220 221 291 215 369 229" fill="none" stroke="#d8deff" stroke-opacity=".14" stroke-width="1"/>
+
+  <!-- identity -->
+  <text x="500" y="135" fill="#f4f6ff" font-size="58" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="600" letter-spacing="12">LILITH</text>
+  <text x="505" y="181" fill="#aab3d9" font-size="20" font-family="Inter,Segoe UI,Arial,sans-serif" letter-spacing="5">TECHNICAL ARTIST</text>
+  <line x1="505" y1="207" x2="930" y2="207" stroke="#8791bf" stroke-opacity=".28"/>
+  <text x="505" y="243" fill="#8f99c6" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif" letter-spacing="2.5">REAL-TIME RENDERING  ·  TOOLS  ·  PROCEDURAL ART</text>
+
+  <!-- quiet right-side motif -->
+  <path d="M1042 68 L1042 252" stroke="#8490c2" stroke-opacity=".12"/>
+  <circle cx="1042" cy="92" r="3" fill="#aab3d9" fill-opacity=".42"/>
+  <circle cx="1042" cy="228" r="3" fill="#aab3d9" fill-opacity=".42"/>
+</svg>
