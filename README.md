@@ -8,13 +8,13 @@
 
 ### 1. [SoftMatter / STMS](https://github.com/lilith-techart/SoftMatter-STMS)
 
-如何把厚度、透光、湿润高光与接触反馈组织成软材质？
+如何把厚度、透光、湿润高光、形变、损伤与多主体绑定组织成可复用的软材质研究系统？
 
-**Implemented**：jelly optical prototype、Profile / Preset、spring motion、local deformation、single-mesh visual soft tear / regeneration。
+**Implemented / verified**：jelly optical prototype、Profile / Preset、spring motion、local deformation、single-mesh visual soft tear / regeneration，以及 M2-A explicit subject binding；后者已通过 compile/import、M1-F preset 与 M1-G lifecycle regression。
 
-**Research Prototype / WIP**：scattering 是艺术化近似，tear 不改变拓扑；M2A / jellyfish generalization 未完成。
+**Current research**：jellyfish generalization 已进入实现阶段，但 bell / tentacle geometry、multi-renderer look 与 hero capture 尚未完成验证。scattering 是艺术化近似，tear 不改变拓扑，也不是 FEM soft-body simulation。
 
-<img src="https://raw.githubusercontent.com/lilith-techart/SoftMatter-STMS/main/media/jelly-optics-cover.png" alt="STMS existing procedural jelly optical comparison" width="680">
+<img src="https://raw.githubusercontent.com/lilith-techart/SoftMatter-STMS/main/media/jelly-optics-cover.png" alt="STMS procedural jelly optical comparison, current validated hero while jellyfish visual validation remains in progress" width="680">
 
 ### 2. [FluidMatter Water](https://github.com/lilith-techart/FluidMatter-Water)
 
