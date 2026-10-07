@@ -18,13 +18,17 @@
 
 ### 2. [FluidMatter Water](https://github.com/lilith-techart/FluidMatter-Water)
 
-如何让波面、深度、光学与边界共享一致数据？
+如何让波面、深度、光学与边界共享一致数据，而不是每个效果各自解释“这里水有多深”？
 
-**Implemented**：Unity URP、Linear Eye Depth、screen-space refraction、Beer–Lambert transmittance、reflection preview、Gerstner、SurfaceData、boundary field、Profile / binding / cache。
+**Implemented / verified**：Unity URP、Linear Eye Depth 与 validity、screen-space refraction、Beer–Lambert transmittance、reflection **preview**、Gerstner 位移、SurfaceData 契约、boundary field、Profile / binding / shared-material-cache / MPB。
 
-**Research Prototype**：W3.0 Boundary Field 已有验收证据；**WIP**：W3.1 Shoreline & Foam consumer，尚未通过自身验收。
+**关键限定**：reflection 是 preview 路径，不是 SSR 或 planar reflection；boundary 目前是**数据契约**，accepted 配置中该特性关闭，没有 production 外观消费它，仓库里的两种 boundary 视觉都是诊断视图。
 
-**Visual status**：真实 water-scene HERO 与 actual-run short demo 仍为 **NEEDS_CAPTURE**。在拿到真实水景前，不再用 Gerstner debug mesh 充当项目主视觉；现有技术图保留在项目仓库的 Debug & Validation 区。
+**Research Prototype**：W3.0 Boundary Field 已通过 15 gates × 2 passes，3,343 条 graded rows、0 FAIL、`isolation_unresolved = 0`；这是有界测试通过，不是全场景与全硬件认证。**WIP**：W3.1 Shoreline & Foam consumer 尚未通过自身验收，precheck 与在写代码都不构成 PASS 声明。
+
+**Visual status**：项目仓库顶部使用一张真实 final-composite 引擎捕获，并明确标注为验证 rig 而非美术成品；带艺术方向的 water-scene HERO 与 actual-run short demo 仍为 **NEEDS_CAPTURE**。不使用生成图像冒充运行结果。
+
+<img src="https://raw.githubusercontent.com/lilith-techart/FluidMatter-Water/main/media/current-build-composite.png" alt="FluidMatter accepted build final composite capture from the W3.0 validation rig, two Gerstner waves active, not an art pass" width="680">
 
 ### 3. [Tidemark](https://github.com/lilith-techart/Tidemark)
 
