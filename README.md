@@ -30,11 +30,11 @@
 
 如何在持续环境重构中保留可走路线、碰撞边界、场景结构与可替换视觉层，并用明确的 retention / rejection 证据决定哪个版本才是真正的“当前状态”？
 
-**Stable evidence**：当前稳定 UE 视觉源为 **G004**。受控证据中 boardwalk relation、water negative space、building cluster、secondary service dock、structural language、bounded Character feasibility、save/reload 与 protected regression 均有 PASS；Human Art 仍为 PENDING。
+**Current retained candidate**：**G012** integrated visual blockout。visible architecture density、reference massing、settlement asymmetry、vertical layering、tower grounding、building-terrain integration、access logic 等主要 blockout gate 已达到 **STRONG_PARTIAL**；boardwalk composition、water negative space、protected regression 为 **PASS**。
 
-**Current research**：G006–G011 持续推进 geology / island / settlement integration。最新 **G011 = PARTIAL / NOT RETAINED**，因此未覆盖 G004，也不包装成已晋级的成品。
+**Evidence boundary**：真实 Character regression 只验证继承的 G004 collision surface；新 visual terrain / stairs 尚未认证为 production gameplay。**Human Art = PENDING**，未进行 canonical promotion。
 
-**Visual status**：First Art Pass 已降为 Development History。新的 G004 HERO / C027 / OVERVIEW 已存在于项目证据中，但本次尚未通过公开媒体同步闸门，因此 profile 暂不使用旧图冒充 Current State。
+<img src="https://raw.githubusercontent.com/lilith-techart/Tidemark/main/media/current-c027-g012.jpg" alt="Tidemark G012 retained visual blockout, current C027 capture" width="680">
 
 ## Current Research
 
