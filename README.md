@@ -22,9 +22,9 @@
 
 **Implemented**：Unity URP、Linear Eye Depth、screen-space refraction、Beer–Lambert transmittance、reflection preview、Gerstner、SurfaceData、boundary field、Profile / binding / cache。
 
-**Research Prototype**：W3.0 evidence-backed；**WIP**：W3.1。水景封面与动态演示 **NEEDS_CAPTURE**；下图是波面验证图，不是完成水景或泡沫效果。
+**Research Prototype**：W3.0 Boundary Field 已有验收证据；**WIP**：W3.1 Shoreline & Foam consumer，尚未通过自身验收。
 
-<img src="https://raw.githubusercontent.com/lilith-techart/FluidMatter-Water/main/media/gerstner-wave-mesh.png" alt="FluidMatter recorded Gerstner wave mesh validation, not a finished water cover" width="680">
+**Visual status**：真实 water-scene HERO 与 actual-run short demo 仍为 **NEEDS_CAPTURE**。在拿到真实水景前，不再用 Gerstner debug mesh 充当项目主视觉；现有技术图保留在项目仓库的 Debug & Validation 区。
 
 ### 3. [Tidemark](https://github.com/lilith-techart/Tidemark)
 
