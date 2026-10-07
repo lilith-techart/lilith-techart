@@ -28,13 +28,13 @@
 
 ### 3. [Tidemark](https://github.com/lilith-techart/Tidemark)
 
-如何让环境视觉迭代保留可走路线与可替换资产结构？
+如何在持续环境重构中保留可走路线、碰撞边界、场景结构与可替换视觉层，并用明确的 retention / rejection 证据决定哪个版本才是真正的“当前状态”？
 
-**Implemented**：UE 场景 construction、visual / collision separation、相机输出与历史角色遍历验证。
+**Stable evidence**：当前稳定 UE 视觉源为 **G004**。受控证据中 boardwalk relation、water negative space、building cluster、secondary service dock、structural language、bounded Character feasibility、save/reload 与 protected regression 均有 PASS；Human Art 仍为 PENDING。
 
-**WIP**：First Art Pass awaiting human review；未作为最终环境成品。
+**Current research**：G006–G011 持续推进 geology / island / settlement integration。最新 **G011 = PARTIAL / NOT RETAINED**，因此未覆盖 G004，也不包装成已晋级的成品。
 
-<img src="https://raw.githubusercontent.com/lilith-techart/Tidemark/main/media/first-art-pass.png" alt="Tidemark First Art Pass scene capture, WIP" width="680">
+**Visual status**：First Art Pass 已降为 Development History。新的 G004 HERO / C027 / OVERVIEW 已存在于项目证据中，但本次尚未通过公开媒体同步闸门，因此 profile 暂不使用旧图冒充 Current State。
 
 ## Current Research
 
