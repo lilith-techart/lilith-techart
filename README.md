@@ -10,11 +10,11 @@
 
 如何把厚度、透光、湿润高光、形变、损伤与多主体绑定组织成可复用的软材质研究系统？
 
-**Implemented / verified**：jelly optical prototype、Profile / Preset、spring motion、local deformation、single-mesh visual soft tear / regeneration，以及 M2-A explicit subject binding；后者已通过 compile/import、M1-F preset 与 M1-G lifecycle regression。
+**Implemented / verified**：单一 shader core 的光学模型（解析厚度 proxy、Beer–Lambert 透光、screen-space 折射、湿润高光、艺术化 back-scatter）、spring 运动与局部接触形变、damage lifecycle 驱动的同网格视觉软撕裂与再生、Material / Motion Profile 与 Preset 系统，以及 M2-A 的显式 subject binding（renderer 成员 / 角色 / per-renderer body metrics）；后者已通过 compile/import、preset 与 fracture lifecycle 的独立进程回归。
 
-**Current research**：jellyfish generalization 已进入实现阶段，但 bell / tentacle geometry、multi-renderer look 与 hero capture 尚未完成验证。scattering 是艺术化近似，tear 不改变拓扑，也不是 FEM soft-body simulation。
+**Current research**：第二主体泛化进行中。binding 目前证明的是**不改变既有主体行为**，多 renderer 的 preset look 应用与水母主体的正向验证仍未完成——bell 代码只是未编译草稿，**尚无任何 jellyfish capture**。scattering 是艺术化近似，tear 不改变拓扑，也不是 FEM soft-body simulation。
 
-<img src="https://raw.githubusercontent.com/lilith-techart/SoftMatter-STMS/main/media/jelly-optics-cover.png" alt="STMS procedural jelly optical comparison, current validated hero while jellyfish visual validation remains in progress" width="680">
+<img src="https://raw.githubusercontent.com/lilith-techart/SoftMatter-STMS/main/media/jelly-hero.png" alt="STMS validated hero render: translucent jelly with internal pulp, wet highlights and soft scattering" width="680">
 
 ### 2. [FluidMatter Water](https://github.com/lilith-techart/FluidMatter-Water)
 
