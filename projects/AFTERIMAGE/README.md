@@ -4,6 +4,9 @@
 
 > **2026.10.18 · 研发阶段展示 / Work in Progress。** 这是从真实 Godot 工程与有边界的实验记录整理出的技术美术展示，不是已完成的游戏、最终美术或公开完整源码。
 
+<p align="center"><img src="media/apartment-a-30.webp" width="900" alt="Real Godot 4.7.2 windowed capture, Apartment A, orthographic 45° azimuth / 30° elevation, VI Gate 3 visual candidate"></p>
+<p align="center"><sub><b>REAL GODOT ENGINE CAPTURE</b> · VI Gate 3 / Apartment A / 30° elevation · authentic panel crop, web preview compressed for the portfolio · Human Art Review PENDING</sub></p>
+
 ## 01 / 为什么做《余像》
 
 《余像》是一款围绕**记忆、日常生活与人与人工智能之间的关系**展开的独立游戏。开端不是惊悚事件，而是普通的个人空间、校园、人与物的熟悉关系。玩家日复一日使用电脑、照料百合、留下一些便签；这些熟悉的物件在之后成为记忆与身份问题的入口。
