@@ -6,6 +6,14 @@
 
 ## Featured Projects
 
+### Featured / [AFTERIMAGE《余像》 — Godot 真实 3D 像素世界](projects/AFTERIMAGE/README.md)
+
+**Independent Game · Godot 4.7.2 · Pixel Art × Real 3D · Spatial Narrative**
+
+从真实三维 Mesh 与交互空间出发，研究《皮卡堂》式的等角像素生活视角，以及同一个 3D 世界的第一人称物件观察。已完成 G0 游戏框架基础、CC0 家具资产试装、真实 Godot 公寓 A/B 镜头截图及 Visual Identity 实验；**Apartment C、完整双视角试玩和最终美术仍在研发中**。
+
+**给老师看：** [项目介绍、技术架构与真实进度 →](projects/AFTERIMAGE/README.md)
+
 ### 1. [SoftMatter / STMS](https://github.com/lilith-techart/SoftMatter-STMS)
 
 如何把厚度、透光、湿润高光、形变、损伤与多主体绑定组织成可复用的软材质研究系统？
@@ -44,7 +52,7 @@
 
 - 软半透明材质的视觉线索与交互反馈：从技术机制发展对照方法。
 - 水渲染的数据契约、波面与边界场；W3.1 consumer 仍在研发。
-- **AFTERIMAGE**：Godot Pixel3D、空间叙事与交互状态，Experimental / WIP，暂未公开工程。
+- **AFTERIMAGE**：Godot 真实 3D 像素场景、空间叙事与互动状态；[技术与视觉研究公开展示](projects/AFTERIMAGE/README.md)，完整工程仍为隔离研发。
 - **SceneValidationCore**：可重放的场景通行与结构化失败检查，Experimental tool，暂未公开源码。
 
 ## Study Direction
@@ -61,6 +69,6 @@ Unreal Engine · Unity / Tuanjie · Godot · HLSL / ShaderLab · C# · C++ · GD
 
 **Implemented** 表示已有实现与相应证据；**Research Prototype** 表示有界实验；**WIP** 表示仍在研发；**Roadmap** 仅是未来工作。以上项目均未包装为成熟产品。
 
-三个项目仓库是教师与作品集审阅入口。Source/project distribution is not currently provided；公开可见不等于开源许可。
+三项 TA 工程仓库与 AFTERIMAGE 研究展示共同构成教师与作品集审阅入口。Source/project distribution is not currently provided；公开可见不等于开源许可。
 
 [STMS](https://github.com/lilith-techart/SoftMatter-STMS) · [FluidMatter](https://github.com/lilith-techart/FluidMatter-Water) · [Tidemark](https://github.com/lilith-techart/Tidemark)
