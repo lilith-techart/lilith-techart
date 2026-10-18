@@ -36,6 +36,13 @@
 
 Visual Identity 隔离实验已经用声明式支撑面规则接入 **10 件个人物品**，并记录它们与窗台、桌面、地面、椅背和原交互锚点之间的关系。**位置验证不等于物件的最终视觉验收。**
 
+### Lily · 单一连续状态的像素视觉实验
+
+<p align="center"><img src="media/lily-state-rnd.webp" width="1000" alt="Real Godot GPU capture of provisional Lily state R&D: stable bloom to sparse data residue, five states"/></p>
+<p align="center"><sub><b>REAL GODOT 4.7.2 GPU CAPTURE / PROVISIONAL R&D</b> · T0–T4 continuous dissolve field · source carrier derived from an approved AI-generated reference; this is a 2D shader state experiment, NOT the final 3D Lily model or a shipped effect.</sub></p>
+
+单个 Sprite2D + ShaderMaterial 的独立视觉实验使用同一 dissolve field 驱动花瓣表面消退、数据符号与残留，而不是在五张互不相关的图之间直接切换。T0–T4 是实验书签，不等于剧情或真实游戏内的已发布状态机。最终 3D Lily 需单独建立和验收。
+
 ## 03 / 技术架构与已验证边界
 
 | 子系统 | 实际阶段 / 研究内容 |
